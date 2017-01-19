@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automation Suite">
+
+<test name="Framework test">
+<classes>
+<class name="test.Annotations"/>
+
+</classes>
+
+</test>
+
+<test name="Second Test">
+<classes>
+<class name="test.TestNGtest"/>
+</classes>
+</test>
+
+</suite>
+
+
