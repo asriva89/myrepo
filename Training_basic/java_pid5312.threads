@@ -1,0 +1,46 @@
+Thread 0x44d3f10
+
+  locals:
+
+Thread 0x44d3d38
+
+  locals:
+
+Thread 0x44a7b50
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.ref.ReferenceQueue.remove(J)Ljava/lang/ref/Reference; (Unknown Source)
+  at java.lang.ref.ReferenceQueue.remove()Ljava/lang/ref/Reference; (Unknown Source)
+  at java.lang.ref.Finalizer$FinalizerThread.run()V (Unknown Source)
+
+  locals:
+    objectId=0x44a7ac0, line=1
+    objectId=0x44a7ad8, line=1
+    objectId=0x44a7ac0, line=2
+    objectId=0x44a7b50, line=3
+    objectId=0x44c88c8, line=3
+
+Thread 0x44a6c28
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.Object.wait()V (Unknown Source)
+  at java.lang.ref.Reference.tryHandlePending(Z)Z (Unknown Source)
+  at java.lang.ref.Reference$ReferenceHandler.run()V (Unknown Source)
+
+  locals:
+    objectId=0x44a6408, line=1
+    objectId=0x44a6408, line=2
+    objectId=0x44a6c28, line=3
+
+Thread 0x44a59b8
+  at java.lang.OutOfMemoryError.<init>()V (Unknown Source)
+  at java.lang.StringBuilder.toString()Ljava/lang/String; (Unknown Source)
+  at com.nokia.gc.OutOfMemory.main([Ljava/lang/String;)V (OutOfMemory.java:29)
+
+  locals:
+    objectId=0x448ffb0, line=1
+    objectId=0x44df0d0, line=2
+    objectId=0x44ab420, line=2
+    objectId=0x44df1e8, line=2
+    objectId=0x44df450, line=2
+    objectId=0x44df590, line=2
+    objectId=0x44df5c0, line=2
+

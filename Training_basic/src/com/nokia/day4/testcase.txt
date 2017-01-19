@@ -1,0 +1,6 @@
+System shutdown : passed
+System restart : passed
+System on : passed
+System off : passed
+System backup : failed
+System recovery : failed
