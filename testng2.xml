@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Automation Suite">
+
+<test name="Framework test">
+<classes>
+<class name="test.TestNGtest"/>
+ <groups>
+ <define name ="a">
+ 
+  <include name="slow"/>
+  <exclude name="fast"/>
+  
+ 
+ </define>
+ <run>
+ <include name="a"/>
+
+  </run>
+ </groups>
+
+</classes>
+
+</test>
+
+</suite>
+
+
+
+
+
+

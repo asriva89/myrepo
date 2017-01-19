@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Suite" duration-ms="70" started-at="2016-07-29T07:05:18Z" finished-at="2016-07-29T07:05:18Z">
+    <groups>
+      <group name="fast">
+        <method signature="TestNGtest.aFStest()[pri:0, instance:test.TestNGtest@cb5822]" name="aFStest" class="test.TestNGtest"/>
+        <method signature="TestNGtest.aFastTest()[pri:0, instance:test.TestNGtest@cb5822]" name="aFastTest" class="test.TestNGtest"/>
+      </group> <!-- fast -->
+      <group name="slow">
+        <method signature="TestNGtest.aFStest()[pri:0, instance:test.TestNGtest@cb5822]" name="aFStest" class="test.TestNGtest"/>
+        <method signature="TestNGtest.aSlowTest()[pri:0, instance:test.TestNGtest@cb5822]" name="aSlowTest" class="test.TestNGtest"/>
+        <method signature="TestNGtest.test2()[pri:0, instance:test.TestNGtest@cb5822]" name="test2" class="test.TestNGtest"/>
+        <method signature="TestNGtest.test3(java.lang.String)[pri:0, instance:test.TestNGtest@cb5822]" name="test3" class="test.TestNGtest"/>
+      </group> <!-- slow -->
+    </groups>
+    <test name="Framework test" duration-ms="31" started-at="2016-07-29T07:05:18Z" finished-at="2016-07-29T07:05:18Z">
+      <class name="test.Annotations">
+        <test-method status="PASS" signature="testMethod()[pri:0, instance:test.Annotations@100a15d]" name="testMethod" duration-ms="15" started-at="2016-07-29T12:35:18Z" finished-at="2016-07-29T12:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:test.Annotations@100a15d]" name="test2" duration-ms="1" started-at="2016-07-29T12:35:18Z" depends-on-methods="test.Annotations.testMethod" finished-at="2016-07-29T12:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- test.Annotations -->
+    </test> <!-- Framework test -->
+    <test name="Second Test" duration-ms="17" started-at="2016-07-29T07:05:18Z" finished-at="2016-07-29T07:05:18Z">
+      <class name="test.TestNGtest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.TestNGtest@cb5822]" name="beforeTest" is-config="true" duration-ms="1" started-at="2016-07-29T12:35:18Z" finished-at="2016-07-29T12:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="aFStest()[pri:0, instance:test.TestNGtest@cb5822]" name="aFStest" duration-ms="1" started-at="2016-07-29T12:35:18Z" finished-at="2016-07-29T12:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aFStest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TestNGtest@cb5822]" name="setUp" is-config="true" duration-ms="0" started-at="2016-07-29T12:35:18Z" finished-at="2016-07-29T12:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.TestNGtest@cb5822]" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-07-29T12:35:18Z" finished-at="2016-07-29T12:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TestNGtest@cb5822]" name="setUp" is-config="true" duration-ms="0" started-at="2016-07-29T12:35:18Z" finished-at="2016-07-29T12:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="aFastTest()[pri:0, instance:test.TestNGtest@cb5822]" name="aFastTest" duration-ms="1" started-at="2016-07-29T12:35:18Z" finished-at="2016-07-29T12:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aFastTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.TestNGtest@cb5822]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-07-29T12:35:18Z" finished-at="2016-07-29T12:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="aSlowTest()[pri:0, instance:test.TestNGtest@cb5822]" name="aSlowTest" duration-ms="1" started-at="2016-07-29T12:35:18Z" finished-at="2016-07-29T12:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aSlowTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TestNGtest@cb5822]" name="setUp" is-config="true" duration-ms="0" started-at="2016-07-29T12:35:18Z" finished-at="2016-07-29T12:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.TestNGtest@cb5822]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-07-29T12:35:18Z" finished-at="2016-07-29T12:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:test.TestNGtest@cb5822]" name="test2" duration-ms="0" started-at="2016-07-29T12:35:18Z" finished-at="2016-07-29T12:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TestNGtest@cb5822]" name="setUp" is-config="true" duration-ms="0" started-at="2016-07-29T12:35:18Z" finished-at="2016-07-29T12:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.TestNGtest@cb5822]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-07-29T12:35:18Z" finished-at="2016-07-29T12:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TestNGtest@cb5822]" name="setUp" is-config="true" duration-ms="0" started-at="2016-07-29T12:35:18Z" finished-at="2016-07-29T12:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test3(java.lang.String)[pri:0, instance:test.TestNGtest@cb5822]" name="test3" duration-ms="1" started-at="2016-07-29T12:35:18Z" data-provider="test1" finished-at="2016-07-29T12:35:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[x]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TestNGtest@cb5822]" name="setUp" is-config="true" duration-ms="0" started-at="2016-07-29T12:35:18Z" finished-at="2016-07-29T12:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.TestNGtest@cb5822]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-07-29T12:35:18Z" finished-at="2016-07-29T12:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="test3(java.lang.String)[pri:0, instance:test.TestNGtest@cb5822]" name="test3" duration-ms="1" started-at="2016-07-29T12:35:18Z" data-provider="test1" finished-at="2016-07-29T12:35:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.TestNGtest@cb5822]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-07-29T12:35:18Z" finished-at="2016-07-29T12:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.TestNGtest@cb5822]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-07-29T12:35:18Z" finished-at="2016-07-29T12:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- test.TestNGtest -->
+    </test> <!-- Second Test -->
+  </suite> <!-- Automation Suite -->
+</testng-results>
