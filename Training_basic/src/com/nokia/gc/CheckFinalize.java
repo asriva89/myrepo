@@ -16,7 +16,7 @@ public class CheckFinalize {
 		List<Indian> humansb=new ArrayList<>();
 		
 		
-		System.out.println("Used Memory :"+( initialMemory-a.freeMemory()));
+		System.out.println("Used Memory. :"+( initialMemory-a.freeMemory()));
 		
 		//System.out.println(a.freeMemory());
 		//System.out.println(humansb);
