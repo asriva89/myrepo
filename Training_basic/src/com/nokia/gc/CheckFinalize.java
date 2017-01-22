@@ -5,7 +5,7 @@ import java.util.List;
 
 public class CheckFinalize {
 	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub.
+		// TODO Auto-generated method stub..
 		Runtime a= Runtime.getRuntime();
 		long initialMemory= a.freeMemory();
 		List<String> humans=new ArrayList<>();
